@@ -11,7 +11,7 @@ import SwiftUI
 struct CardUI_TestApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }
