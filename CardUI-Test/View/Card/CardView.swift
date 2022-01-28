@@ -10,11 +10,13 @@ import SwiftUI
 struct CardView: View {
     
     @EnvironmentObject private var mainObject: MainObject
+
+    
     var body: some View {
         ZStack(alignment: .topLeading) {
             BgRectView().environmentObject(mainObject)
             ImageView().environmentObject(mainObject)
-            UserDetailView().environmentObject(mainObject)
+            
             if mainObject.uidata.height == mainObject.uidata.maxHeight {
                 VStack(alignment: .center) {
                     HStack {
