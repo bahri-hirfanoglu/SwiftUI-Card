@@ -32,6 +32,10 @@ struct UserData {
     var country : String
 }
 
+var countryList = [
+"TR", "BR", "US", "GG", "BH", "BG", "CP", "CR"
+]
+
 struct UIData {
     var minWidth: Double
     var maxWidth: Double

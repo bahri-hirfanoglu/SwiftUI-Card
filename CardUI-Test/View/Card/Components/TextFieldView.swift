@@ -35,6 +35,7 @@ struct TextFieldView: View {
                 .textFieldStyle(.roundedBorder)
                 .frame(width: width == 1 ? mainObject.uidata.width - 60 : mainObject.uidata.width - 200, height: 20, alignment: .center)
                 .font(Font.custom("\(self.mainObject.baseFont)-Regular", size: 15))
+                .foregroundColor(.black).multilineTextAlignment(.leading)
         }.padding(.top, 30)
     }
 }
